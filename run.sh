@@ -19,4 +19,5 @@ export NODE_DATA=${NODE_DATA:-true}
 /elasticsearch_logging_discovery >> /usr/share/elasticsearch/config/elasticsearch.yml
 export HTTP_PORT=${HTTP_PORT:-9200}
 export TRANSPORT_PORT=${TRANSPORT_PORT:-9300}
+chown -R elasticsearch:elasticsearch /data
 source /docker-entrypoint.sh

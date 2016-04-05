@@ -28,3 +28,4 @@ VOLUME /data
 EXPOSE 9200 9300
 
 ENTRYPOINT ["/run.sh"]
+CMD ["elasticsearch"]

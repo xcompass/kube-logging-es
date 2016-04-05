@@ -1,6 +1,7 @@
 cluster.name: kubernetes-logging
 node.master: ${NODE_MASTER}
 node.data: ${NODE_DATA}
+network.host: _local_,_site_
 transport.tcp.port: ${TRANSPORT_PORT}
 http.port: ${HTTP_PORT}
 discovery.zen.ping.multicast.enabled: false

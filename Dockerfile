@@ -16,7 +16,7 @@
 # to work with Kubernetes logging. Inspired by the Dockerfile
 # dockerfile/elasticsearch
 
-FROM elasticsearch:2.3
+FROM elasticsearch:2.4.1
 MAINTAINER Satnam Singh "satnam@google.com"
 MAINTAINER Pan Luo "pan.luo@ubc.ca"
 
